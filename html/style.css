@@ -1,0 +1,25 @@
+body {
+    background: #ddd;
+}
+
+span.title {
+    padding: 20px;
+    font-size: 18px;
+}
+
+#color {
+    border: #cdcdcd;
+    border-radius: 20px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+#game {
+    border: 1px solid #cdcdcd;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -512px;
+    margin-top: -384px;
+}
