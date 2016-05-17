@@ -3,14 +3,16 @@
 <head>
   <meta charset="utf-8">
   <title></title>
-  <link href="style.css" rel="stylesheet">
-  <script src="socket.io.js"></script>
-  <script src="js/utils.js"></script>
-  <script src="js/world.js"></script>
-  <script src="js/player.js"></script>
-  <script src="js/client.js"></script>
+  <link href="/html/style.css" rel="stylesheet">
+  <script src="/html/socket.io.js"></script>
+  <script src="/html/js/utils.js"></script>
+  <script src="/html/js/world.js"></script>
+  <script src="/html/js/player.js"></script>
+  <script src="/html/js/client.js"></script>
 </head>
 <body>
+    <input id="ip" type="text" placeholder="IP-Address" value="http://localhost:8080"/>
+    <button id="startGameBtn" onclick="connect()">Подключиться</button>
     <span class="title">Твой цвет <span id="color"></span></span>
     <canvas id="game" width="1024" height="768"></canvas>
 </body>
